@@ -1,0 +1,49 @@
+.content{
+display: flex;
+height: calc(100vh-72px);
+width: 1125px;
+margin: auto;
+align-items: center;
+}
+
+.contentWrite h1{
+   display: flex;
+   flex-wrap: wrap;
+  font-size: 102px;
+  font-weight: 600;
+  line-height: 102px;
+  color: 000000;
+  width: 595px;
+  height: 306px;
+  margin-bottom: 0;
+}
+
+.contentWrite{
+  display: flex;
+  flex-direction: column;
+}
+.contentWrite p{
+  height:91px ;
+  width: 404px;
+  margin-top: 0;
+}
+.cbtns{
+  width: 331px;
+  height: 41px;
+  display: flex;
+ gap: 40px;
+}
+
+.f{
+  width: 150px;
+  height: 41px;
+  color: #FFFFFF;
+  background: #d01c28;
+}
+.d{
+  width: 141px;
+  height: 41px;
+  border: 1px solid gray;
+  color:black;
+  font-weight: 200;
+}

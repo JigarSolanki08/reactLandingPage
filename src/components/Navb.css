@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  margin: auto;
+  height: 72px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.btn1 button {
+  background-color: #d01c28;
+  color: #ffffff;
+  width: 75px;
+  height: 31px;
+  border: none;
+}
